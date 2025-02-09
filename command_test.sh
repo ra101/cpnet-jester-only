@@ -1,6 +1,6 @@
 #!/bin/sh
 
-command_file=`basename "$0"`
+command_file=$(basename "$0")
 script_file=test.py
 gpu=0,1,2,3
 data=/datasets/jester/gulp_128
